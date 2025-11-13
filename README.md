@@ -25,6 +25,15 @@ It leverages **MediaPipe FaceMesh**, **OpenCV**, and **PyAutoGUI** to provide in
 | Language | Python 3.x |
 
 ---
+## Working and condition:
+- short time blink less than 0.5 are ignored  (i.e time in sec)
+- right blink (0.5 - 1) = left click
+- right blink (1 - 2) = scroll down
+- left blink (2 - 3) = right click
+- left blink (more than 3) = scroll
+
+- voice recognition:(click, double click, scroll up, scroll down, open chrome, right click, open , enter, click two times, ..)
+  
 
 ## 🧩 Installation
 ```bash
